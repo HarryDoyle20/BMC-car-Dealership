@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+}
+header p {
+    margin: 5px 0 0;
+}
+/* Main content */
+main {
+    padding: 20px;
+}
+#car-showcase {
+    margin-bottom: 40px;
+}
+.car-list {
+    display: flex;
+    justify-content: space-around;
+}
+.car {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: white;
+    width: 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Jenkins Monitor */
+#jenkins-monitor {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Status styles */
+.success {
+    color: green;
+    font-weight: bold;
+}
+.failure {
+    color: red;
+    font-weight: bold;
+}
+.running {
+    color: orange;
+    font-weight: bold;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-top: 20px;
+}
